@@ -8,24 +8,8 @@ public class healthplayer : MonoBehaviour
     public int maxHealth = 15;
     public int minHealth = 0;
     public int currentHealth;
-    //Hunger
-    public int maxHunger = 15;
-    public int minHunger = 0;
-    public int currentHunger;
-    //Social
-    public int maxSocial = 15;
-    public int minSocial = 0;
-    public int currentSocial;
-    //Work
-    public int maxWork = 15;
-    public int minWork = 0;
-    public int currentWork;
-
 
     public Bars healthBar;
-    public Bars hungerBar;
-    public Bars socialBar;
-    public Bars workBar;
 
     public DialogueManager dialogueManager;
 
@@ -35,15 +19,7 @@ public class healthplayer : MonoBehaviour
         //Health
         currentHealth = minHealth;
         healthBar.SetMinHealth(minHealth);
-        //Hunger
-        currentHunger = minHunger;
-        hungerBar.SetMinHunger(minHunger);
-        //Social
-        currentSocial = minSocial;
-        socialBar.SetMinSocial(minSocial);
-        //Work
-        currentWork = minWork;
-        workBar.SetMinWork(minWork);
+       
     }
 
  
@@ -52,14 +28,6 @@ public class healthplayer : MonoBehaviour
         //health
         currentHealth += heal;
         healthBar.SetHealth(currentHealth);
-        // //hunger
-        // currentHunger += heal;
-        // hungerBar.SetHunger(currentHunger);
-        // //social
-        // currentSocial += heal;
-        // socialBar.SetSocial(currentSocial);
-        // //Work
-        // currentWork += heal;
-        // workBar.SetWork(currentWork);
+       
     }
 }
