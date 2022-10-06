@@ -6,28 +6,33 @@ using UnityEngine;
 
  public class FishHealth : MonoBehaviour
 {
-    public int clickCount = 0;
     public healthplayer hp;
-    public OnClick onClick;
+    public ButtonClicks bc; 
+    
 
-    void Start()
+    public void Start()
     {
-        onClick = GameObject.Find("Fish").GetComponent<OnClick>();
-        
         InvokeRepeating("DoCheck", 1.0f, 10.0f);
     }
 
     void DoCheck()
     {
-        if (clickCount == 1)
+        bc = GameObject.Find("TestButton").GetComponent<ButtonClicks>();
+        hp = GameObject.Find("Health").GetComponent<healthplayer>();
+
+        if (bc.clickCount == 1)
         {
             hp.currentHealth = hp.currentHealth + 1;
-            Debug.Log("1 click-gain health");
+            bc.clickCount = 0;
+
+            Debug.Log("Fish: 1 click");
         }
         else
         {
             hp.currentHealth = hp.currentHealth - 10;
-            Debug.Log("No clicks-lose health");
+            bc.clickCount = 0;
+
+            Debug.Log("Fish: no or too many clicks");
         }
      } 
 }
