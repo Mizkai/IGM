@@ -6,7 +6,6 @@ public class AlgaeHealthDown : MonoBehaviour
 {
 
     public healthplayer hp;
-    //public DialogueManager dm;
 
     void Start()
     {
@@ -20,8 +19,9 @@ public class AlgaeHealthDown : MonoBehaviour
 
     void MakeHealthGoDown()
     {
-        hp.HealthGoDown(); 
-        //heartManager.UpdateHearts(-1);
+        hp.HealthGoDown();
+        Debug.Log("Health go down");
+
 
     }
 
