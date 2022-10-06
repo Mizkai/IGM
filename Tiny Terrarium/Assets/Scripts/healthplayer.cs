@@ -30,4 +30,10 @@ public class healthplayer : MonoBehaviour
         healthBar.SetHealth(currentHealth);
        
     }
+
+    public void HealthGoDown() //this isnt working
+    {
+        currentHealth--;
+
+    }
 }

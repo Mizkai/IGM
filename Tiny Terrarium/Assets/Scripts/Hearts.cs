@@ -24,7 +24,7 @@ public class Hearts : MonoBehaviour
 
         // int r = Random.Range(0, HeartImages.Length);
         // //
-        // heartbar = HeartImages.Length;
+         heartbar = HeartImages.Length;
         // //
 
         // UpdateHearts(r - hearts);
