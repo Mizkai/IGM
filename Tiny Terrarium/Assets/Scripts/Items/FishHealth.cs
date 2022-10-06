@@ -12,7 +12,7 @@ using UnityEngine;
 
     void Start()
     {
-        onClick = GameObject.Find("FishFood").GetComponent<OnClick>();
+        onClick = GameObject.Find("Fish").GetComponent<OnClick>();
         
         InvokeRepeating("DoCheck", 1.0f, 10.0f);
     }
