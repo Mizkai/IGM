@@ -1,11 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class AlgaeHealthDown : MonoBehaviour
 {
     //this script goes on the algaePrefab, make sure to connect healthplayer script in inspector
-    public healthplayer hp;
+    public HeartBar hp;
 
     void Start()
     {

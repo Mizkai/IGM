@@ -230,48 +230,48 @@ public class DialogueManager : MonoBehaviour
 
     }
 
-    public void MakeChoice(int choiceIndex)
+   // public void MakeChoice(int choiceIndex)
 
-    {
+//    {
 
-        currentStory.ChooseChoiceIndex(choiceIndex);
+  //      currentStory.ChooseChoiceIndex(choiceIndex);
 
         // NOTE: The below two lines were added to fix a bug after the Youtube video was made
 
         //InputManager.GetInstance().RegisterSubmitPressed(); // this is specific to my InputManager script
 
-        ContinueStory();
+    //    ContinueStory();
 
         //Find the health player component in the scene
 
-        healthplayer hp = FindObjectOfType<healthplayer>();
+      //  healthplayer hp = FindObjectOfType<healthplayer>();
 
         // Find the spoon manager
 
-        Hearts heartManager = FindObjectOfType<Hearts>();
+     //   Hearts heartManager = FindObjectOfType<Hearts>();
 
         //change the bar based on response
 
-        if (choiceIndex == 0)
+       // if (choiceIndex == 0)
 
-        {
+      //  {
 
-            hp.Recover(1);
+        //    hp.Recover(1);
 
-            heartManager.UpdateHearts(-1);
+          //  heartManager.UpdateHearts(-1);
 
-        }
+//        }
 
-        if(choiceIndex == 1)
+  //      if(choiceIndex == 1)
 
-        {
+    //    {
+    //
+          //  hp.Recover(2);
+        //
+         //   heartManager.UpdateHearts(-2);
 
-            hp.Recover(2);
+    //    }
 
-            heartManager.UpdateHearts(-2);
-
-        }
-
-    }
+  //  }
 
 }

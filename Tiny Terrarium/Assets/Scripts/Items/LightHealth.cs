@@ -3,39 +3,37 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-
-
 //want this to check how many times object has been clicked within a time period, and add or take away health
 
-public class FishHealth : MonoBehaviour
+public class LightHealth : MonoBehaviour
 {
     public HeartBar hp;
-    public ButtonClicks bc; 
-    
+    public ButtonClicks bc;
+
 
     public void Start()
     {
-        InvokeRepeating("DoCheck", 10.0f, 10.0f);
+        InvokeRepeating("DoCheck", 70.0f, 70.0f);
     }
 
     void DoCheck()
     {
-        bc = GameObject.Find("FishButton").GetComponent<ButtonClicks>();
+        bc = GameObject.Find("LightButton").GetComponent<ButtonClicks>();
         hp = GameObject.Find("Health").GetComponent<HeartBar>();
 
-        if (bc.clickCount == 1)
+        if (bc.clickCount == 2)
         {
             hp.health = hp.health + 1;
             bc.clickCount = 0;
 
-            Debug.Log("Fish: 1 click");
+            Debug.Log("Light: 2 clicks");
         }
         else
         {
             hp.health = hp.health - 1;
             bc.clickCount = 0;
 
-            Debug.Log("Fish: no or too many clicks");
+            Debug.Log("Light: no or too many clicks");
         }
-     } 
+    }
 }

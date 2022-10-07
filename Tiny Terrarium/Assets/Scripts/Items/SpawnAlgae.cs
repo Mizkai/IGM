@@ -8,11 +8,11 @@ public class SpawnAlgae : MonoBehaviour
 
     public GameObject algaePrefab; //this is the prefab with AlgaeHealthDown script 
 
-    public healthplayer healthPlayer; //Spawner should have a reference to the script that controls the health
+    public HeartBar healthPlayer; //Spawner should have a reference to the script that controls the health
 
     void Start()
     {
-        InvokeRepeating("SpawnScum", 10.0f, 10.0f); //time to start loop and time of loop
+        InvokeRepeating("SpawnScum", 30.0f, 20.0f); //time to start loop and time of loop
     }
 
     void SpawnScum()

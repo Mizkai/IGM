@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class DestroyAlgae : MonoBehaviour
 {
     //this script works, attach script to "algae cleaner" and add "algae" to variable field
@@ -16,7 +17,8 @@ public class DestroyAlgae : MonoBehaviour
     }
 
     // Update is called once per frame
-    void OnMouseDown()
+
+    public void OnMouseDown()
     {
         Destroy(go);
     }
