@@ -13,12 +13,12 @@ public class LightHealth : MonoBehaviour
 
     public void Start()
     {
-        InvokeRepeating("DoCheck", 70.0f, 70.0f);
+        InvokeRepeating("DoCheck", 30.0f, 70.0f);
     }
 
     void DoCheck()
     {
-        bc = GameObject.Find("LightButton").GetComponent<ButtonClicks>();
+     //   bc = GameObject.Find("LightButton").GetComponent<ButtonClicks>(); this stopped working, possibly because I made the button the child of the panel-connected it manually in inspector instead
         hp = GameObject.Find("Health").GetComponent<HeartBar>();
 
         if (bc.clickCount == 2)

@@ -19,7 +19,7 @@ public class TeaHealth : MonoBehaviour
 
     void DoCheck()
     {
-        bc = GameObject.Find("TeaButton").GetComponent<ButtonClicks>();
+        //  bc = GameObject.Find("TeaButton").GetComponent<ButtonClicks>(); this stopped working, possibly because I made the button the child of the panel-connected it manually in inspector
         hp = GameObject.Find("Health").GetComponent<HeartBar>();
 
         if (bc.clickCount == 1)

@@ -14,12 +14,12 @@ public class PlantHealth : MonoBehaviour
 
     public void Start()
     {
-        InvokeRepeating("DoCheck", 30.0f, 30.0f);
+        InvokeRepeating("DoCheck", 20.0f, 30.0f);
     }
 
     void DoCheck()
     {
-        bc = GameObject.Find("PlantButton").GetComponent<ButtonClicks>();
+        // bc = GameObject.Find("PlantButton").GetComponent<ButtonClicks>(); this stopped working, possibly because I made the button the child of the panel-connected it manually in inspector
         hp = GameObject.Find("Health").GetComponent<HeartBar>();
 
         if (bc.clickCount == 1)
