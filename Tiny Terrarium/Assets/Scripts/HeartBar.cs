@@ -11,6 +11,7 @@ public class HeartBar : MonoBehaviour
     public Image[] HeartImages;
     public Sprite Heartfill;
     public Sprite Heartborder;
+    private bool clicked;
 
 
 
@@ -47,11 +48,22 @@ public class HeartBar : MonoBehaviour
             }
 
         }
+
+        if (Input.GetMouseButtonUp (0))
+        {
+            clicked = true;
+        }
     }
 
     public void HealthGoDown()
     {
         health--;
 
+    }
+
+    public void HealthIncrease()
+    {
+        if (clicked)
+        health++;
     }
 }

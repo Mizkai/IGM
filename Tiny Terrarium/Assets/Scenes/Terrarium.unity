@@ -1512,6 +1512,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 32914300}
+        m_TargetAssemblyTypeName: HeartBar, Assembly-CSharp
+        m_MethodName: HealthIncrease
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &809433802
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2018,7 +2030,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: turn on the lights
 --- !u!222 &905431769
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2234,7 +2246,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: Water plants
 --- !u!222 &976984752
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2313,7 +2325,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: Feed fish
 --- !u!222 &1026139296
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2648,7 +2660,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: Clean Algae
 --- !u!222 &1202406664
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2757,6 +2769,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1229512746}
         m_TargetAssemblyTypeName: PanelClose, Assembly-CSharp
         m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 32914300}
+        m_TargetAssemblyTypeName: HeartBar, Assembly-CSharp
+        m_MethodName: HealthIncrease
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2954,7 +2978,6 @@ GameObject:
   - component: {fileID: 1502294263}
   - component: {fileID: 1502294262}
   - component: {fileID: 1502294264}
-  - component: {fileID: 1502294261}
   m_Layer: 0
   m_Name: Bucket
   m_TagString: Untagged
@@ -2976,27 +2999,6 @@ Transform:
   m_Father: {fileID: 741788209}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: -45.891, y: 0, z: 0}
---- !u!50 &1502294261
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1502294259}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!114 &1502294262
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3308,6 +3310,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 32914300}
+        m_TargetAssemblyTypeName: HeartBar, Assembly-CSharp
+        m_MethodName: HealthIncrease
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1562659183
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3555,6 +3569,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1607928779}
         m_TargetAssemblyTypeName: PanelClose, Assembly-CSharp
         m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 32914300}
+        m_TargetAssemblyTypeName: HeartBar, Assembly-CSharp
+        m_MethodName: HealthIncrease
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4248,7 +4274,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: Make Tea
 --- !u!222 &1867995815
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4432,6 +4458,18 @@ MonoBehaviour:
       - m_Target: {fileID: 2110976439}
         m_TargetAssemblyTypeName: PanelClose, Assembly-CSharp
         m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 32914300}
+        m_TargetAssemblyTypeName: HeartBar, Assembly-CSharp
+        m_MethodName: HealthIncrease
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
