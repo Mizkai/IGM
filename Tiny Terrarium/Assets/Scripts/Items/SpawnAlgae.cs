@@ -11,7 +11,7 @@ public class SpawnAlgae : MonoBehaviour
 
     void Start()
     {
-        InvokeRepeating("SpawnScum", 30.0f, 20.0f); //time to start loop and time of loop
+        InvokeRepeating("SpawnScum", 30.0f, 60.0f); //time to start loop and time of loop
     }
 
     void SpawnScum()

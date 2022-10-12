@@ -14,7 +14,7 @@ public class PlantHealth : MonoBehaviour
 
     public void Start()
     {
-        InvokeRepeating("DoCheck", 30.0f, 30.0f);
+        InvokeRepeating("DoCheck", 30.0f, 120.0f);
     }
 
     void DoCheck()

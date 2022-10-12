@@ -13,7 +13,7 @@ public class LightHealth : MonoBehaviour
 
     public void Start()
     {
-        InvokeRepeating("DoCheck", 60.0f, 60.0f);
+        InvokeRepeating("DoCheck", 60.0f, 120.0f);
     }
 
     void DoCheck()

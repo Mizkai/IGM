@@ -14,7 +14,7 @@ public class TeaHealth : MonoBehaviour
 
     public void Start()
     {
-        InvokeRepeating("DoCheck", 50.0f, 50.0f);
+        InvokeRepeating("DoCheck", 50.0f, 120.0f);
     }
 
     void DoCheck()
