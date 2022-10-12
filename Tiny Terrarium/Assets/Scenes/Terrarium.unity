@@ -743,8 +743,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 450179255}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.05, y: -1.22, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.7, y: -1.5, z: 0}
+  m_LocalScale: {x: 1.3138125, y: 0.605, z: 1}
   m_Children: []
   m_Father: {fileID: 741788209}
   m_RootOrder: 2
@@ -993,8 +993,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 552197347}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.96228665, y: 1.35, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.96228665, y: 1.8025, z: 0}
+  m_LocalScale: {x: 1, y: 0.525, z: 1}
   m_Children: []
   m_Father: {fileID: 741788209}
   m_RootOrder: 0
@@ -1433,7 +1433,7 @@ RectTransform:
   m_GameObject: {fileID: 809433799}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
   - {fileID: 1026139294}
   m_Father: {fileID: 1145494293}
@@ -1441,7 +1441,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -12.910034, y: 21.47998}
+  m_AnchoredPosition: {x: -511.35, y: 125.2}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 1, y: 0}
 --- !u!114 &809433801
@@ -1503,18 +1503,6 @@ MonoBehaviour:
       - m_Target: {fileID: 809433805}
         m_TargetAssemblyTypeName: PanelClose, Assembly-CSharp
         m_MethodName: OnClick
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 32914300}
-        m_TargetAssemblyTypeName: HeartBar, Assembly-CSharp
-        m_MethodName: HealthIncrease
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1987,7 +1975,7 @@ RectTransform:
   m_GameObject: {fileID: 905431766}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.66, y: 1.66, z: 1.66}
   m_Children: []
   m_Father: {fileID: 1229512741}
   m_RootOrder: 0
@@ -2030,7 +2018,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: light switch
+  m_Text: Light Switch
 --- !u!222 &905431769
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2300,7 +2288,7 @@ RectTransform:
   m_GameObject: {fileID: 976984749}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.66, y: 1.66, z: 1.66}
   m_Children: []
   m_Father: {fileID: 1607928774}
   m_RootOrder: 0
@@ -2343,7 +2331,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Water plants
+  m_Text: Water Plants
 --- !u!222 &976984752
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2379,7 +2367,7 @@ RectTransform:
   m_GameObject: {fileID: 1026139293}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.66, y: 1.66, z: 1.66}
   m_Children: []
   m_Father: {fileID: 809433800}
   m_RootOrder: 0
@@ -2422,7 +2410,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Feed fish
+  m_Text: Feed Fish
 --- !u!222 &1026139296
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2552,8 +2540,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1126577785}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.43, y: 0.26, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 4.4422, y: 0.14, z: 0}
+  m_LocalScale: {x: 1.175, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 741788209}
   m_RootOrder: 4
@@ -2714,7 +2702,7 @@ RectTransform:
   m_GameObject: {fileID: 1202406661}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.66, y: 1.66, z: 1.66}
   m_Children: []
   m_Father: {fileID: 1562659180}
   m_RootOrder: 0
@@ -2797,7 +2785,7 @@ RectTransform:
   m_GameObject: {fileID: 1229512740}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
   - {fileID: 905431767}
   m_Father: {fileID: 40531462}
@@ -2805,7 +2793,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -319.99997, y: -202.04422}
+  m_AnchoredPosition: {x: 12.6, y: 70.5}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1229512742
@@ -2867,18 +2855,6 @@ MonoBehaviour:
       - m_Target: {fileID: 1229512746}
         m_TargetAssemblyTypeName: PanelClose, Assembly-CSharp
         m_MethodName: OnClick
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 32914300}
-        m_TargetAssemblyTypeName: HeartBar, Assembly-CSharp
-        m_MethodName: HealthIncrease
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3279,7 +3255,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_TargetDisplay: 0
 --- !u!1 &1539138750
 GameObject:
@@ -3343,7 +3319,7 @@ RectTransform:
   m_GameObject: {fileID: 1562659179}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
   - {fileID: 1202406662}
   m_Father: {fileID: 1752189459}
@@ -3351,7 +3327,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -319.99997, y: -202.04422}
+  m_AnchoredPosition: {x: -324.2, y: -42.5}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1562659181
@@ -3425,18 +3401,6 @@ MonoBehaviour:
       - m_Target: {fileID: 1562659185}
         m_TargetAssemblyTypeName: PanelClose, Assembly-CSharp
         m_MethodName: OnClick
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 32914300}
-        m_TargetAssemblyTypeName: HeartBar, Assembly-CSharp
-        m_MethodName: HealthIncrease
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3623,7 +3587,7 @@ RectTransform:
   m_GameObject: {fileID: 1607928773}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
   - {fileID: 976984750}
   m_Father: {fileID: 898934206}
@@ -3631,7 +3595,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -319.99997, y: -202.04422}
+  m_AnchoredPosition: {x: 333.3, y: 63.2}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1607928775
@@ -3693,18 +3657,6 @@ MonoBehaviour:
       - m_Target: {fileID: 1607928779}
         m_TargetAssemblyTypeName: PanelClose, Assembly-CSharp
         m_MethodName: OnClick
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 32914300}
-        m_TargetAssemblyTypeName: HeartBar, Assembly-CSharp
-        m_MethodName: HealthIncrease
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4228,8 +4180,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1769176643}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.06, y: -0.8, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 3.06, y: -0.92, z: 0}
+  m_LocalScale: {x: 1, y: 0.4429688, z: 1}
   m_Children: []
   m_Father: {fileID: 741788209}
   m_RootOrder: 1
@@ -4355,7 +4307,7 @@ RectTransform:
   m_GameObject: {fileID: 1867995812}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.66, y: 1.66, z: 1.66}
   m_Children: []
   m_Father: {fileID: 2110976434}
   m_RootOrder: 0
@@ -4512,7 +4464,7 @@ RectTransform:
   m_GameObject: {fileID: 2110976433}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
   - {fileID: 1867995813}
   m_Father: {fileID: 394872496}
@@ -4520,7 +4472,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -319.99997, y: -202.04422}
+  m_AnchoredPosition: {x: 223.23, y: -65.9}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2110976435
@@ -4582,18 +4534,6 @@ MonoBehaviour:
       - m_Target: {fileID: 2110976439}
         m_TargetAssemblyTypeName: PanelClose, Assembly-CSharp
         m_MethodName: OnClick
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 32914300}
-        m_TargetAssemblyTypeName: HeartBar, Assembly-CSharp
-        m_MethodName: HealthIncrease
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
