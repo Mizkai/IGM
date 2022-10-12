@@ -21,5 +21,6 @@ public class DestroyAlgae : MonoBehaviour
     public void OnMouseDown()
     {
         Destroy(go);
+        Debug.Log("destroy algae"); 
     }
 }

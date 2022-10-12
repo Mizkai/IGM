@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class SpawnAlgae : MonoBehaviour
 {
-   // int health = 15; <<olivia had this in the script but i dont know what it is for
 
     public GameObject algaePrefab; //this is the prefab with AlgaeHealthDown script 
 

@@ -15,7 +15,7 @@ public class FishHealth : MonoBehaviour
 
     public void Start()
     {
-        InvokeRepeating("DoCheck", 10.0f, 20.0f);
+        InvokeRepeating("DoCheck", 10.0f, 10.0f);
     }
 
     void DoCheck()
