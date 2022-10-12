@@ -10,7 +10,7 @@ public class AlgaeHealthDown : MonoBehaviour
 
     void Start()
     {
-        InvokeRepeating("MakeHealthGoDown", 5.0f, 3.0f);
+        InvokeRepeating("MakeHealthGoDown", 15.0f, 15.0f);
     }
 
     void onDestroy()
