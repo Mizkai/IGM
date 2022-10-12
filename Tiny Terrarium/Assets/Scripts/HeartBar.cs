@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+//new code
+using UnityEngine.SceneManagement;
+
 
 public class HeartBar : MonoBehaviour
 { 
@@ -12,6 +15,8 @@ public class HeartBar : MonoBehaviour
     public Sprite Heartfill;
     public Sprite Heartborder;
     private bool clicked;
+    public string sceneToLoad;
+    private bool wasted;
 
 
 
@@ -65,5 +70,15 @@ public class HeartBar : MonoBehaviour
     {
         if (clicked)
         health++;
+    }
+
+    public void Dead()
+    {
+        if (health < numOfHearts)
+        {
+          wasted = true;  
+          Debug.Log("Wasted");
+        }
+        // SceneManager.LoadScene(sceneToLoad);
     }
 }
