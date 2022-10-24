@@ -16,7 +16,7 @@ public class HeartBar : MonoBehaviour
     public Sprite Heartborder;
     private bool clicked;
     public string sceneToLoad;
-    private bool wasted;
+
 
 
 
@@ -58,6 +58,12 @@ public class HeartBar : MonoBehaviour
         {
             clicked = true;
         }
+
+        if (health <= 0) //restart game...opens panel when health drops to 0
+        {
+            SceneManager.LoadScene("GameOver");
+
+        }
     }
 
     public void HealthGoDown()
@@ -72,13 +78,5 @@ public class HeartBar : MonoBehaviour
         health++;
     }
 
-    public void Dead()
-    {
-        if (health < numOfHearts)
-        {
-          wasted = true;  
-          Debug.Log("Wasted");
-        }
-        // SceneManager.LoadScene(sceneToLoad);
-    }
+
 }

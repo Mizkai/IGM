@@ -1,8 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class SaveQuit : MonoBehaviour
+
+public class Restart : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -11,8 +13,9 @@ public class SaveQuit : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    public void RestartGame()
     {
-        
+        SceneManager.LoadScene("Terrarium");
+
     }
 }
